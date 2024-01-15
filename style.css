@@ -35,10 +35,12 @@ body{
     position: relative;
     width: 56rem;
     height: 35rem;
-    padding: 2rem;
+    padding: 1.7rem;
 }
 
 .cover {
+    top: 0;
+    left: 0;
     position: absolute;
     width: 50%;
     height: 100%;
@@ -69,6 +71,97 @@ body{
     width: 50%;
     height: 100%;
     background: var(--pages-color);
-    box-shadow: 0 0 .6rem rgba(0,0,0, .1);
+    box-shadow: 0 0 .8rem rgba(0,0,0, .1);
     display: flex;
+    padding: 0.1rem;
+}
+
+.profile-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-page img{
+    max-width: 100px;
+    border-radius: 50%;
+    border: .25rem solid var(--main-color);
+    margin-bottom: .8rem;    
+}
+
+.profile-page h1 {
+    font-size: 1.8rem;
+    line-height: 1;
+}
+
+.profile-page h3 {
+    font-size: 1.1rem;
+    color: var(--main-color);
+}
+
+.profile-page .social-media {
+    margin: .6rem 0 .8rem;
+}
+
+.profile-page .social-media a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 1.7rem;
+    height: 1.7rem;
+    background: transparent;
+    border: var(--border);
+    border-radius: 50%;
+    font-size: 1.2rem;
+    color: var(--main-color);
+    margin: 0 .2rem ;
+    transition: .4s;
+}
+
+.profile-page .social-media a:hover {
+    background: var(--main-color);
+    color: var(--white-color);
+}
+
+.profile-page p{
+    text-align: justify;
+    font-size: 0.9rem;
+    padding-right: 1.8rem;
+    padding-left: 1.8rem;
+}
+
+.profile-page .btn-box {
+    margin-top: 0.4rem;
+}
+
+.btn {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center ;
+    width: 8.5rem;
+    height: 2.7rem;
+    background-color: var(--main-color);
+    border: var(--border);
+    border-radius: .2.4rem;
+    font-size: 1rem;
+    color: var(--white-color);
+    font-weight: 500;
+    margin: 0 1rem;
+    transition: 1s;
+}
+
+.btn:hover {
+    background: transparent;
+    color: var(--main-color);
+}
+
+.btn-box .btn:nth-child(2) {
+    background: transparent;
+    color: var(--main-color);
+}
+
+.btn-box .btn:nth-child(2):hover {
+    background: var(--main-color);
+    color: var(--white-color);
 }
