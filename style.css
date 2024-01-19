@@ -9,18 +9,20 @@
     outline: none;
     font-family: "Poppins", sans-serif;
 }
-
+/* 00abf0 */
 :root{
-    --bg-color: #081b29;
-    --main-color: #00abf0;
-    --text-color:#333;
-    --second-text-color: #555;
-    --white-color: #fff;
-    --cover-color: linear-gradient(45deg, #00abf0, #006e9a);
-    --pages-color: linear-gradient(90deg, #fff, #ddd);
-    --border: .125rem solid #00abf0;
+    --bg-color: #75787a;
+    --main-color: #081b29;
+    --text-color:#081b29;
+    --second-text-color: #081b29;
+    --white-color: #0f7797;
+    --cover-color: linear-gradient(45deg, #081b29, #081b29);
+    --pages-color: linear-gradient(90deg, #0f7797, #0f7797);
+    --border: .125rem solid #081b29;
     --box-shadow: 0 0 .6rem rgba(0,0,0, .2);
 }
+
+
 
 body{
     display: flex;
