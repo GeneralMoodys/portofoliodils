@@ -11,14 +11,14 @@
 }
 /* 00abf0 */
 :root{
-    --bg-color: #75787a;
+    --bg-color: #585d5f;
     --main-color: #081b29;
-    --text-color:#081b29;
-    --second-text-color: #081b29;
-    --white-color: #0f7797;
+    --text-color:#f8f9fa;
+    --second-text-color: #f5f7f8;
+    --white-color: #585d5f;
     --cover-color: linear-gradient(45deg, #081b29, #081b29);
-    --pages-color: linear-gradient(90deg, #0f7797, #0f7797);
-    --border: .125rem solid #081b29;
+    --pages-color: linear-gradient(90deg, #585d5f, #585d5f);
+    --border: .125rem solid #f5f7f8;
     --box-shadow: 0 0 .6rem rgba(0,0,0, .2);
 }
 
